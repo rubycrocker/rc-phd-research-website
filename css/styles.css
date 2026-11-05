@@ -202,3 +202,88 @@ footer {
 
     color: var(--muted);
 }
+
+
+
+
+
+
+
+
+
+
+
+.coming-soon {
+
+    background: var(--card);
+
+    border-radius: 14px;
+
+    padding: 2rem;
+
+    text-align: center;
+
+    margin-top: 2rem;
+}
+
+.coming-soon h2 {
+
+    color: var(--accent);
+
+    margin-bottom: 1rem;
+}
+
+.coming-soon p {
+
+    color: var(--muted);
+}
+
+
+
+
+
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 1.4rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 0.8rem;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+    }
+
+    .hero {
+        padding: 3rem 1rem;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    main {
+        padding: 2rem 1rem;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+}
